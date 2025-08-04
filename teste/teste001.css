@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=GFS+Didot&family=Cantata+One&family=Cinzel+Decorative:wght@400;700;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-image: linear-gradient(to right, #BAA0F2 30%, #7d79f2, #57AAF2, #94C6F2);
+    color: rgb(8, 0, 0);
+    font-size: 18px;
+    font-family: "GFS Didot";
+}
+
+
+p {
+    text-align: justify;
+    text-indent: 3%;
+}
+
+
+h2 {
+    font-family: "GFS Didot";
+    font-weight: 600 ;
+}
+
+div#titulo_principal {
+    
+    text-indent: 10px;
+    color: rgba(77, 18, 92, 0.884);
+    font-family: "Cinzel decorative", 'Times New Roman', serif;
+    font-size: 1.5rem;
+    font-style: oblique; 
+    
+    padding-top: 1px;
+    padding-right: 8px;
+    padding-bottom: 1px;
+    padding-left: 27px;
+    
+    border-width: 4px;
+    border-style: double;
+    border-color: white;
+
+    margin-top: 50px;
+    margin-right: 45px;
+    margin-bottom: 20px;
+    margin-left: 1px;
+}
+
+
+a:visited {
+    color: rgb(121, 11, 232);
+}
+
+a:hover {
+    color: #1B1BE0;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.spotify:hover {
+    color: green;
+}
+
+.youtube:hover {
+    color: red;
+}
+
+.instagram:hover {
+    color: #c22ada;
+}
+
